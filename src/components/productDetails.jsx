@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class ProductDetails extends Component {
   handleSave = () => {
-
+    this.props.history.replace('/products')
   }
 
   render() { 
